@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 manager.notify(Constant.NOAMAL, notification);
                 break;
             case 2:
-                notification = builder.setStyle(new NotificationCompat.BigTextStyle().bigText("Learn how to build notifications, send and sync data, and use voice actions. Get the official Android IDE and developer tools to build apps for Android."))
+                notification = builder.setStyle(new NotificationCompat.BigTextStyle().bigText("我是长文字内容，我是长文字内容，我是长文字内容，我是长文字内容，我是长文字内容，我是长文字内容，我是长文字内容，我是长文字内容，我是长文字内容，我是长文字内容，我是长文字内容，我是长文字内容，我是长文字内容，我是长文字内容，我是长文字内容，我是长文字内容"))
                         .build();
                 manager.notify(Constant.WORD, notification);
                 break;
